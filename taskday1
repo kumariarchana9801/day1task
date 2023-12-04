@@ -1,0 +1,29 @@
+1.                                                                                               HTTP1.1 and HTTP2                                                         
+
+*It compresses data by itself.                                      *It uses HPACK for data                                   compression.                                                                    compresses.   
+
+*It works on the textual format.                                    *It works on the binary protocol..
+
+*It uses requests resource Inlining for use                 *It uses PUSH frame by server 
+Getting multiple pages.                                                   that collects all multiple pages.
+
+*There is a head of line blocking that blocks,              *It allows multiplexing so one 
+all the requests behind it until it doesn't get,                TCP connection is required for 
+it's all resources.                                                               Multiple requests.
+
+
+2.
+
+JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object is a reference data type.
+=>objectName.propertyName 
+let person = {name: 'Sita', age:'20', sub:'maths'};
+
+
+
+      
+
+
+
